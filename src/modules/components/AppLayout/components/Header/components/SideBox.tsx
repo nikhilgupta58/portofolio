@@ -72,6 +72,8 @@ export default function SideBox() {
           pos="absolute"
           transition={{ duration: "0.2" }}
           zIndex={1}
+          top={'10px'}
+          left={'20px'}
         >
           <HamburgerIcon />
         </MotionFlex>
@@ -81,6 +83,8 @@ export default function SideBox() {
           pos="absolute"
           transition={{ duration: "0.1" }}
           zIndex={50}
+          top={'10px'}
+          left={'20px'}
         >
           <AddIcon />
         </MotionFlex>

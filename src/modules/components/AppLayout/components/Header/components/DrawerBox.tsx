@@ -1,4 +1,5 @@
 import { Flex } from "@chakra-ui/react";
+import { navigate } from "gatsby";
 import React from "react";
 import { Items } from "../../../../../../utils/Items";
 import { Link } from "../../../../../../utils/Link";
@@ -21,6 +22,8 @@ export default function DrawerBox() {
         fontSize={"2rem"}
         fontFamily={"'Nanum Pen Script', cursive;"}
         mb="20px"
+        onClick={()=>navigate('/')}
+        cursor='pointer'
       >
         <HoverMotion>{"<nikhi/>"}</HoverMotion>
       </Flex>

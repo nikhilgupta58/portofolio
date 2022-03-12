@@ -5,6 +5,7 @@ import HoverMotion from "../../../HoverMotion";
 import SideBox from "./components/SideBox";
 import { Items } from "../../../../../utils/Items";
 import { Link } from "../../../../../utils/Link";
+import { navigate } from "gatsby";
 
 export default function Heading() {
   return (
@@ -26,6 +27,8 @@ export default function Heading() {
         letterSpacing="0.5px"
         fontSize={"1.6rem"}
         fontFamily={"'Nanum Pen Script', cursive;"}
+        onClick={()=>navigate('/')}
+        cursor='pointer'
       >
         <HoverMotion>{"<nikhi/>"}</HoverMotion>
       </Flex>

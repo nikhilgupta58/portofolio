@@ -5,11 +5,11 @@ import ItemLayout from "../Header/components/ItemLayout";
 const Items = [
   {
     title: "Linkedin",
-    link: "",
+    link: "https://www.linkedin.com/in/nikhil-kumar-gupta-827682b4/",
   },
   {
     title: "GitHub",
-    link: "",
+    link: "https://github.com/nikhilgupta58",
   },
 ];
 
