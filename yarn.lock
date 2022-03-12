@@ -2864,6 +2864,13 @@
   dependencies:
     "@types/react" "*"
 
+"@types/react-helmet@^6.1.5":
+  version "6.1.5"
+  resolved "https://registry.yarnpkg.com/@types/react-helmet/-/react-helmet-6.1.5.tgz#35f89a6b1646ee2bc342a33a9a6c8777933f9083"
+  integrity sha512-/ICuy7OHZxR0YCAZLNg9r7I9aijWUWvxaPR6uTuyxe8tAj5RL4Sw1+R6NhXUtOsarkGYPmaHdBDvuXh2DIN/uA==
+  dependencies:
+    "@types/react" "*"
+
 "@types/react@*", "@types/react@^17.0.15", "@types/react@^17.0.39":
   version "17.0.40"
   resolved "https://registry.yarnpkg.com/@types/react/-/react-17.0.40.tgz#dc010cee6254d5239a138083f3799a16638e6bad"
@@ -5978,6 +5985,17 @@ gatsby-plugin-image@^2.9.1:
     objectFitPolyfill "^2.3.5"
     prop-types "^15.7.2"
 
+gatsby-plugin-manifest@^4.9.1:
+  version "4.9.1"
+  resolved "https://registry.yarnpkg.com/gatsby-plugin-manifest/-/gatsby-plugin-manifest-4.9.1.tgz#20513c7d942b424795b802506893c0f909c69b7a"
+  integrity sha512-Fye2vr7ioc7ETVKdCfpbc5ByU28+EB7ocqSORbazPgAT8OiPazpaBAYm98BONceuK3WaxGoEXMsmwmNBIIPjRA==
+  dependencies:
+    "@babel/runtime" "^7.15.4"
+    gatsby-core-utils "^3.9.1"
+    gatsby-plugin-utils "^3.3.0"
+    semver "^7.3.5"
+    sharp "^0.30.1"
+
 gatsby-plugin-page-creator@^4.9.1:
   version "4.9.1"
   resolved "https://registry.yarnpkg.com/gatsby-plugin-page-creator/-/gatsby-plugin-page-creator-4.9.1.tgz#d73b6af0d26a19a25ddece1ea2276149f0ee2c44"
@@ -5994,6 +6012,13 @@ gatsby-plugin-page-creator@^4.9.1:
     gatsby-telemetry "^3.9.1"
     globby "^11.0.4"
     lodash "^4.17.21"
+
+gatsby-plugin-react-helmet@^5.9.0:
+  version "5.9.0"
+  resolved "https://registry.yarnpkg.com/gatsby-plugin-react-helmet/-/gatsby-plugin-react-helmet-5.9.0.tgz#6ac992628f99451ec72d8ceeae11f456f7409366"
+  integrity sha512-TpPxg0Cl+zH34P9rVzKW+o6ejC6fZpvZMZ4Gs/zZ4uFswSJo6hwj/teUjB1rGAytPE+d6w9cZ2IP1gEM2RR9Ig==
+  dependencies:
+    "@babel/runtime" "^7.15.4"
 
 gatsby-plugin-typescript@^4.9.1:
   version "4.9.1"
@@ -9198,7 +9223,7 @@ react-error-overlay@^6.0.9:
   resolved "https://registry.yarnpkg.com/react-error-overlay/-/react-error-overlay-6.0.10.tgz#0fe26db4fa85d9dbb8624729580e90e7159a59a6"
   integrity sha512-mKR90fX7Pm5seCOfz8q9F+66VCc1PGsWSBxKbITjfKVQHMNF2zudxHnMdJiB1fRCb+XsbQV9sO9DCkgsMQgBIA==
 
-react-fast-compare@3.2.0:
+react-fast-compare@3.2.0, react-fast-compare@^3.1.1:
   version "3.2.0"
   resolved "https://registry.yarnpkg.com/react-fast-compare/-/react-fast-compare-3.2.0.tgz#641a9da81b6a6320f270e89724fb45a0b39e43bb"
   integrity sha512-rtGImPZ0YyLrscKI9xTpV8psd6I8VAtjKCzQDlzyDvqJA8XOW78TXYQwNRNd8g8JZnDu8q9Fu/1v4HPAVwVdHA==
@@ -9214,6 +9239,16 @@ react-focus-lock@2.5.2:
     react-clientside-effect "^1.2.5"
     use-callback-ref "^1.2.5"
     use-sidecar "^1.0.5"
+
+react-helmet@^6.1.0:
+  version "6.1.0"
+  resolved "https://registry.yarnpkg.com/react-helmet/-/react-helmet-6.1.0.tgz#a750d5165cb13cf213e44747502652e794468726"
+  integrity sha512-4uMzEY9nlDlgxr61NL3XbKRy1hEkXmKNXhjbAIOVw5vcFrsdYbH2FEwcNyWvWinl103nXgzYNlns9ca+8kFiWw==
+  dependencies:
+    object-assign "^4.1.1"
+    prop-types "^15.7.2"
+    react-fast-compare "^3.1.1"
+    react-side-effect "^2.1.0"
 
 react-icons@^4.3.1:
   version "4.3.1"
@@ -9253,6 +9288,11 @@ react-remove-scroll@2.4.1:
     tslib "^1.0.0"
     use-callback-ref "^1.2.3"
     use-sidecar "^1.0.1"
+
+react-side-effect@^2.1.0:
+  version "2.1.1"
+  resolved "https://registry.yarnpkg.com/react-side-effect/-/react-side-effect-2.1.1.tgz#66c5701c3e7560ab4822a4ee2742dee215d72eb3"
+  integrity sha512-2FoTQzRNTncBVtnzxFOk2mCpcfxQpenBMbk5kSVBg5UcPqV9fRbgY2zhb7GTWWOlpFmAxhClBDlIq8Rsubz1yQ==
 
 react-style-singleton@^2.1.0:
   version "2.1.1"

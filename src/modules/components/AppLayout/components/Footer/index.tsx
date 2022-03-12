@@ -26,8 +26,8 @@ export default function Footer() {
     >
       <Flex columnGap={'30px'} >
         {Items.map((item, id) => (
-          <Flex mb="1rem">
-            <ItemLayout key={id} data={item} fontWeight="400" />
+          <Flex mb="1rem" key={id}>
+            <ItemLayout data={item} fontWeight="400" />
           </Flex>
         ))}
       </Flex>

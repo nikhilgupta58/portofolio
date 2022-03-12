@@ -5,8 +5,8 @@ import AppLayout from "../modules/components/AppLayout/AppLayout"
 // markup
 const IndexPage = () => {
   return (
-    <AppLayout>
-      
+    <AppLayout head="Home">
+      Body
     </AppLayout>    
   ) 
 }
