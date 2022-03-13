@@ -1,5 +1,6 @@
 /** @type {import('gatsby').GatsbyConfig} */
 module.exports = {
+  pathPrefix:"/portofolio",
   siteMetadata: {
     title: `Projects`,
     siteUrl: `https://ln11rhy9.api.sanity.io/v1/graphql/production/default`,
