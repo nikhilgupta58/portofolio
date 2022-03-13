@@ -45,9 +45,14 @@ export default function ProjectView() {
               borderRadius="1rem"
               direction={"column"}
               overflow="hidden"
-              bgColor={'white'}
+              bgColor={"white"}
             >
-              <Flex w="400px" h="250px">
+              <Flex
+                maxW="400px"
+                maxH="250px"
+                justifyContent={"center"}
+                alignItems="center"
+              >
                 <Image
                   src={project.thumbnail}
                   w="100%"
@@ -56,60 +61,50 @@ export default function ProjectView() {
                 />
               </Flex>
               <Flex
-                p='1.5em'
-                direction={'column'}
-                justifyContent='space-between'
+                p="1.5em"
+                direction={"column"}
+                justifyContent="space-between"
                 lineHeight={1}
               >
-                  <Text 
-                    fontWeight={'bold'}
-                    fontSize='20px'
-                  >
-                      {project.name}
-                  </Text>
-                  <Text
-                    lineHeight={1.7}
-                    my='16px'
-                  >
-                      {project.description}
-                  </Text>
+                <Text fontWeight={"bold"} fontSize="20px">
+                  {project.name}
+                </Text>
+                <Text lineHeight={1.7} my="16px">
+                  {project.description}
+                </Text>
               </Flex>
-              <Flex
-                px='1.5em'
-                pb='1.5em'
-                columnGap={'20px'}
-              >
-                  <Flex
-                    p='0.5rem 0.75rem 0.5rem 1rem'
-                    alignItems={'center'}
-                    fontWeight='bold'
-                    color={'white'}
-                    bgColor='black'
-                    borderRadius={'9999px'}
-                    cursor={'pointer'}
-                    minW='130px'
-                    onClick={()=>{
-                        window.open(project.live,'_blank')
-                    }}
-                  >
-                      Live Demo
-                  </Flex>
+              <Flex px="1.5em" pb="1.5em" columnGap={"20px"}>
+                <Flex
+                  p="0.5rem 0.75rem 0.5rem 1rem"
+                  alignItems={"center"}
+                  fontWeight="bold"
+                  color={"white"}
+                  bgColor="black"
+                  borderRadius={"9999px"}
+                  cursor={"pointer"}
+                  minW="130px"
+                  onClick={() => {
+                    window.open(project.live, "_blank");
+                  }}
+                >
+                  Live Demo
+                </Flex>
 
-                  <Flex
-                    p='0.5rem 0.75rem 0.5rem 1rem'
-                    alignItems={'center'}
-                    fontWeight='bold'
-                    color={'white'}
-                    bgColor='black'
-                    borderRadius={'9999px'}
-                    cursor={'pointer'}
-                    minW='100px'
-                    onClick={()=>{
-                        window.open(project.github,'_blank')
-                    }}
-                  >
-                      GitHub
-                  </Flex>
+                <Flex
+                  p="0.5rem 0.75rem 0.5rem 1rem"
+                  alignItems={"center"}
+                  fontWeight="bold"
+                  color={"white"}
+                  bgColor="black"
+                  borderRadius={"9999px"}
+                  cursor={"pointer"}
+                  minW="100px"
+                  onClick={() => {
+                    window.open(project.github, "_blank");
+                  }}
+                >
+                  GitHub
+                </Flex>
               </Flex>
             </MotionFlex>
           ))}
