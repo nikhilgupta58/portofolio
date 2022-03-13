@@ -39,6 +39,7 @@ export default function About() {
           p="0 2rem"
           alignSelf={"center"}
           minW="300px"
+          py={'20px'}
         >
           <Text>
             I'm a developer who has recently started journey as a web developer.

@@ -1,5 +1,5 @@
 import { ChevronDownIcon } from "@chakra-ui/icons";
-import { Flex, FlexProps } from "@chakra-ui/react";
+import { Flex, FlexProps, Link } from "@chakra-ui/react";
 import { motion } from "framer-motion";
 import React from "react";
 
@@ -11,6 +11,7 @@ export default function ExploreCTA() {
     }
   };
   return (
+    <>
     <Flex 
         w="100%" 
         mt={'2.5%'}
@@ -39,7 +40,7 @@ export default function ExploreCTA() {
             transition:{repeat:Infinity, duration:10}
           }}
         >
-          Explore!
+          <a href="#project">Explore!</a>
         </MotionFlex>
         <Flex
           w={"50px"}
@@ -55,5 +56,6 @@ export default function ExploreCTA() {
         </Flex>
       </MotionFlex>
     </Flex>
+    </>
   );
 }
