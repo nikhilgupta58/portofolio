@@ -8,9 +8,8 @@ export default function About() {
       direction={"column"}
       justifyContent="start"
       alignItems={"center"}
-      h='100vh'
-      mt='40px'
-      mb='20px'
+      // h='100vh'
+      my='40px'
     >
       <Text fontSize={"4.25rem"} margin={"2.5rem 0"} fontWeight="800">
         About

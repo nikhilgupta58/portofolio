@@ -5,6 +5,7 @@ import { IoSparkles } from "react-icons/io5";
 import { Home } from "../modules/components/Home";
 import ExploreCTA from "../modules/components/Home/components/ExploreCTA";
 import About from "../modules/components/About";
+import { Project } from "../modules/components/Project";
 // markup
 const IndexPage = () => {
   return (
@@ -18,7 +19,7 @@ const IndexPage = () => {
         <ExploreCTA/>
       </Flex>
       <About/>
-      <About/>
+      <Project/>
     </AppLayout>
   );
 };
