@@ -1,4 +1,4 @@
-import { Box, Flex, FlexProps, Image, Text } from "@chakra-ui/react";
+import { Box, Flex, FlexProps, Image, Spacer, Text } from "@chakra-ui/react";
 import { motion } from "framer-motion";
 import React from "react";
 import IProject from "../../Types/IProject";
@@ -48,17 +48,22 @@ export default function ProjectView() {
               bgColor={"white"}
             >
               <Flex
-                maxW="400px"
-                maxH="250px"
-                justifyContent={"center"}
-                alignItems="center"
+                w={'400px'}
+                h='250px'
               >
-                <Image
-                  src={project.thumbnail}
-                  w="100%"
-                  h="100%"
-                  objectFit={"contain"}
-                />
+                <Flex
+                  maxW="400px"
+                  maxH="250px"
+                  justifyContent={"center"}
+                  alignItems="center"
+                >
+                  <Image
+                    src={project.thumbnail}
+                    w="100%"
+                    h="100%"
+                    objectFit={"contain"}
+                  />
+                </Flex>
               </Flex>
               <Flex
                 p="1.5em"
@@ -73,6 +78,7 @@ export default function ProjectView() {
                   {project.description}
                 </Text>
               </Flex>
+              <Spacer/>
               <Flex px="1.5em" pb="1.5em" columnGap={"20px"}>
                 <Flex
                   p="0.5rem 0.75rem 0.5rem 1rem"
