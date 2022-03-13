@@ -32,7 +32,7 @@ export default function HomeView(){
             </Flex>
             <Text>I am Nikhil</Text>
             <Text
-              fontSize={"0.935rem"}
+              fontSize={"0.936rem"}
               letterSpacing="-0.0025em"
               fontWeight={"400"}
               fontStyle="italic"
