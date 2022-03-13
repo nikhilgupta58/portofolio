@@ -38,9 +38,7 @@ export default function SideBox() {
   return (
     <>
       <Flex
-        top={"15px"}
         p="33px 44px"
-        left="22px"
         fontSize={"40px"}
         display={{
           base: "inherit",

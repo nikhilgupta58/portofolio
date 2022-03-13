@@ -9,7 +9,7 @@ import { navigate } from "gatsby";
 
 export default function Heading() {
   return (
-    <>
+    <Flex h='100px'>
     <SideBox/>
     <Flex
       p="33px 44px"
@@ -53,6 +53,6 @@ export default function Heading() {
         ))}
       </Flex>
     </Flex>
-    </>
+    </Flex>
   );
 }

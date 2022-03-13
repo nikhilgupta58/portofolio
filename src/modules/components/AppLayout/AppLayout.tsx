@@ -1,11 +1,17 @@
-import { Flex, FlexProps, Spacer } from "@chakra-ui/react";
+import { calc, Flex, FlexProps, Spacer } from "@chakra-ui/react";
 import * as React from "react";
-import { Helmet } from "react-helmet"
+import { Helmet } from "react-helmet";
 import "../../../components/layout.css";
 import Footer from "./components/Footer";
 import Heading from "./components/Header";
 // markup
-const AppLayout = ({head,children }: { head:string,children: React.ReactNode }) => {
+const AppLayout = ({
+  head,
+  children,
+}: {
+  head: string;
+  children: React.ReactNode;
+}) => {
   return (
     <>
       <Helmet>
@@ -25,9 +31,11 @@ const AppLayout = ({head,children }: { head:string,children: React.ReactNode }) 
         zIndex="-2"
         fontFamily={"'Raleway', sans-serif"}
       >
-        <Flex direction={'column'} w='100%'>
+        <Flex direction={"column"} w="100%" minH='100vh'>
           <Heading />
-          {children}
+          <Flex  direction='column'>
+            {children}
+          </Flex>
         </Flex>
         <Spacer />
         <Footer />

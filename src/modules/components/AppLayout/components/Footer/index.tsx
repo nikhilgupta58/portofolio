@@ -23,6 +23,7 @@ export default function Footer() {
       direction={"column"}
       m="1rem"
       boxSize={'border-box'}
+      pt={16}
     >
       <Flex columnGap={'30px'} >
         {Items.map((item, id) => (
