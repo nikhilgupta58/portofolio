@@ -44,7 +44,7 @@ export default function HomeView(){
 
           <Flex maxW={'22.5rem'}>
             <Image 
-              src={'../../laptop.svg'}
+              src={'https://res.cloudinary.com/dhiu02sfh/image/upload/v1647182179/laptop_zinixw.svg'}
               w={'100%'}
               h='100%'
             />

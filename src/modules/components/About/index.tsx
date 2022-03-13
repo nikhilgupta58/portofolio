@@ -29,7 +29,7 @@ export default function About() {
             lg: "inherit",
           }}
         >
-          <Image src="../../presentation.svg" w="100%" h="100%" />
+          <Image src="https://res.cloudinary.com/dhiu02sfh/image/upload/v1647182180/presentation_seetb3.svg" w="100%" h="100%" />
         </Flex>
         <Flex
           lineHeight={"1.6"}
@@ -63,7 +63,7 @@ export default function About() {
             lg: "self-end",
           }}
         >
-          <Image src="../../coding.svg" w="100%" h="100%" />
+          <Image src="https://res.cloudinary.com/dhiu02sfh/image/upload/v1647182179/coding_agdoev.svg" w="100%" h="100%" />
         </Flex>
       </Flex>
     </Flex>
