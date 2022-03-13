@@ -18,6 +18,7 @@ const IndexPage = () => {
         <ExploreCTA/>
       </Flex>
       <About/>
+      <About/>
     </AppLayout>
   );
 };

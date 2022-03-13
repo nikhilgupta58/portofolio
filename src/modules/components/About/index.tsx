@@ -9,7 +9,8 @@ export default function About() {
       justifyContent="start"
       alignItems={"center"}
       h='100vh'
-      my='40px'
+      mt='40px'
+      mb='20px'
     >
       <Text fontSize={"4.25rem"} margin={"2.5rem 0"} fontWeight="800">
         About
