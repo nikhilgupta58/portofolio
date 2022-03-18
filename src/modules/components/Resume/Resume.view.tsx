@@ -44,9 +44,9 @@ export default function ResumeView() {
         <Flex
           flex={1}
           fontSize={{
-            base: "15vw",
-            sm: "8vw",
-            md: "5vw",
+            base: "12vw",
+            sm: "5vw",
+            md: "3vw",
           }}
           fontWeight={"700"}
           direction="column"
@@ -72,7 +72,7 @@ export default function ResumeView() {
           direction="column"
           lineHeight={1.7}
           justifyContent="center"
-          alignItems="center"
+          alignItems="start"
           rowGap={"5px"}
         >
           <Flex alignItems={"center"} columnGap="5px">

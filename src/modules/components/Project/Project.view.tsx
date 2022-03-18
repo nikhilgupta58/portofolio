@@ -25,7 +25,8 @@ export default function ProjectView() {
           display={"grid"}
           gridTemplateColumns={{
             base: "repeat(1, 1fr)",
-            lg: "repeat(2, 1fr)",
+            md: "repeat(2, 1fr)",
+            lg: "repeat(4, 1fr)",
           }}
           justifyItems="center"
         >
